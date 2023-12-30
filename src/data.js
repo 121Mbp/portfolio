@@ -60,7 +60,16 @@ const timeline = [
 
 const projects = [
     {
-        name: 'BANK CLI Application',
+        name: 'Front-End Portfolio',
+        period: '2014. 10. - 2023. 05.',
+        type: 'Practice',
+        role: 'FE 100%',
+        content: '2014 - 2023년 웹퍼블리셔 UI개발자 포트폴리오',
+        url: 'https://121mbp.github.io/room/',
+        skill: ['js', 'html', 'css', 'jquery', 'scss']
+    },
+    {
+        name: 'Bank CLI Application',
         period: '2023. 08.',
         type: 'Team',
         role: 'BE 100% (3명)',
@@ -91,12 +100,12 @@ const projects = [
         period: '2023. 11.',
         type: 'Personal',
         role: 'FE 100%, BE 100%, Design 100%',
-        content: 'JPA로 DB테이블 생성하여 API을 생성하여 리액트에서 axios로 GET, POST, PUT, DELETE 가져와 구현하였습니다.',
+        content: 'JPA로 DB테이블 생성하여 API을 생성하여 리액트에서 axios로 API를 GET, POST, PUT, DELETE하여 Todo List를 구현하였습니다.',
         url: 'https://github.com/121Mbp/todo',
         skill: ['js', 'html', 'css', 'react', 'scss', 'java' , 'springboot', 'oracle']
     },
     {
-        name: 'woute',
+        name: 'Woute',
         period: '2023. 12. - 2024. 01.',
         type: 'Team',
         role: 'FE 100%, BE 100% (4명)',

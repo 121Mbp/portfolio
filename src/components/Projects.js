@@ -10,12 +10,12 @@ const Projects = () => {
                     {
                         [...projects].reverse().map((item, i) => (
                             <li  key={ i }>
-                                <Link to={ item.url }>
+                                <Link to={ item.url } target='_blank'>
                                     <h4>{ item.name }</h4>
                                     <p>{ item.content }</p>
                                     <span><strong>Working period</strong>{ item.period }</span>
                                     <span><strong>{ item.type } Project</strong>{ item.role }</span>
-                                    <ul>
+                                    <ul className='tags'>
                                         {
                                             item.skill.map((s, j) => (
                                                 <li key={ j }>{`#${ s }`}</li>    
