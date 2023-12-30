@@ -1,0 +1,66 @@
+$skills: (
+  css, 
+  js, 
+  html,
+  jquery,
+  scss,
+  react,
+  java,
+  spring,
+  springboot,
+  git,
+  gradle,
+  oracle,
+  maria,
+  git,
+  vscode,
+  intellij,
+  storm,
+  eclipse,
+  jira,
+  dbeaver,
+  swagger,
+  node,
+  docker
+);
+
+$widths: (
+  xs: 320px,
+  sm: 576px,
+);
+
+@mixin size($prefix) {
+  @if (map-has-key($map: $widths, $key: $prefix)) {
+    $px: map-get(
+      $map: $widths,
+      $key: $prefix,
+    );
+    @media screen and (max-width: $px) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin icon($icon, $color, $width: 1.4rem, $height: 1.4rem) {
+    content: '';
+    display: inline-block;
+    width: $width;
+    height: $height;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: _svg($icon, $color);
+    background-position: center;
+    vertical-align: middle;
+}
+
+@each $skill in $skills {
+  .skill .#{$skill}::before {
+    @include icon(#{$skill}, $White-100);
+  }
+  .projects li:hover li.#{$skill}::before,
+  .technology li:not(.disabled).#{$skill}:hover::before {
+    @include icon(#{$skill}, $Woodsmoke-9);
+  }
+}
