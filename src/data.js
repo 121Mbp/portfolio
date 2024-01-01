@@ -73,7 +73,7 @@ const projects = [
         period: '2023. 08.',
         type: 'Team',
         role: 'BE 100% (3명)',
-        content: '미니 프로젝트로 이클립스 CLI에서 Scanner로 값을 입력 받아 회원가입, 계좌개설, 입금, 출금, 조회, 이체를 구현하였습니다.',
+        content: '미니 프로젝트로 이클립스 CLI에서 Scanner로 입력값을 받아 회원가입, 계좌개설, 입금, 출금, 조회, 계좌이체를 구현하였습니다.',
         url: 'https://github.com/121Mbp/minibank',
         skill: ['java']
     },
@@ -82,7 +82,7 @@ const projects = [
         period: '2023. 10. - 11.',
         type: 'Team',
         role: 'FE 100%, BE 100%, Design 100% (4명)',
-        content: '스타벅스 앱을 기반하여 maven에 필요한 라이브러리를 추가하여 사용, SQL은 MyBatis로 작성하였으며, servlet으로 동적으로 생성하여 .jsp 페이지에서 Ajax를 사용하여 구현하였습니다.',
+        content: '스타벅스 앱을 기반하여 maven에 필요한 라이브러리를 설정 후 SQL은 MyBatis로 연결하여, servlet과 jsp로 동적으로 웹 페이지를 생성하여 구현하였습니다.',
         url: 'https://github.com/121Mbp/semi-starbucks',
         skill: ['js', 'jquery', 'html', 'css', 'java', 'maria']
     },
@@ -91,7 +91,7 @@ const projects = [
         period: '2023. 11.',
         type: 'Personal',
         role: 'FE 100%, Design 100%',
-        content: '컬러를 선택하여 로컬 스토리지에 저장 및 삭제하여 컬러값을 관리할 수 있습니다. 또한 좌측상단에 마스타치 {} 로고를 클릭하면 SCSS형태로 변환되어 사용이 가능하도록 구현했습니다.',
+        content: '컬러를 선택하여 로컬 스토리지에 저장 및 삭제하여 컬러값을 관리할 수 있습니다. 또한 좌측상단 마스타치 {} 로고를 클릭하면 SCSS형태로 변환되어 사용이 가능하도록 구현했습니다.',
         url: 'https://github.com/121Mbp/palette',
         skill: ['js', 'html', 'css', 'react', 'scss']
     },
@@ -100,7 +100,7 @@ const projects = [
         period: '2023. 11.',
         type: 'Personal',
         role: 'FE 100%, BE 100%, Design 100%',
-        content: 'JPA로 DB테이블 생성하여 API을 생성하여 리액트에서 axios로 API를 GET, POST, PUT, DELETE하여 Todo List를 구현하였습니다.',
+        content: 'JPA로 DB테이블 생성 후 API을 생성하여 리액트에서 axios로 API를 GET, POST, PUT, DELETE하여 Todo List를 구현하였습니다.',
         url: 'https://github.com/121Mbp/todo',
         skill: ['js', 'html', 'css', 'react', 'scss', 'java' , 'springboot', 'oracle']
     },
