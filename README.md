@@ -12,8 +12,6 @@
 - 반응형
 - scss 
 - animation
-- data import
-  <img width="1028" alt="스크린샷 2024-01-07 오후 8 42 45" src="https://github.com/121Mbp/portfolio/assets/11451648/39eb08aa-cd43-4cb6-b0e8-db23b13e0701">
 
 
 ## 링크
