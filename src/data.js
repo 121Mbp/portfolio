@@ -100,7 +100,7 @@ const projects = [
         period: '2023. 11.',
         type: 'Personal',
         role: 'FE 100%, BE 100%, Design 100%',
-        content: 'JPA로 DB테이블 생성 후 API을 생성하여 리액트에서 axios로 API를 GET, POST, PUT, DELETE하여 Todo List를 구현하였습니다.',
+        content: 'JPA로 DB테이블 생성 후 리액트에서 axios로 API를 GET, POST, PUT, DELETE하여 Todo List를 구현하였습니다.',
         url: 'https://github.com/121Mbp/todo',
         skill: ['js', 'html', 'css', 'react', 'scss', 'java' , 'springboot', 'oracle']
     },
