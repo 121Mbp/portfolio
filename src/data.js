@@ -109,9 +109,9 @@ const projects = [
         period: '2023. 12. - 2024. 01.',
         type: 'Team',
         role: 'FE 100%, BE 100% (4명)',
-        content: '데이트 코스 sns 프로젝트',
-        url: 'https://github.com/121Mbp',
-        skill: ['js', 'html', 'css', 'scss', 'react', 'spring']
+        content: '나만의 코스를 기록하여 공유하는 sns 프로젝트',
+        url: 'https://github.com/121Mbp/woute-spring-backend',
+        skill: ['js', 'html', 'css', 'scss', 'react', 'springboot', 'java', 'oracle']
     },
 ]
 
