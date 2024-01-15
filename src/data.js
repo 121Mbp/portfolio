@@ -129,6 +129,9 @@ const skillset = [
     { name: 'springboot', lang: 'Spring Boot', learn: true },
     { name: 'oracle', lang: 'OracleDB', learn: true },
     { name: 'maria', lang: 'MariaDB', learn: true },
+    { name: 's3', lang: 'AWS S3', learn: true },
+    { name: 'ec2', lang: 'AWS EC2', learn: true },
+    { name: 'actions', lang: 'Github Actions', learn: true },
 ]
 
 const tools = [
@@ -137,6 +140,7 @@ const tools = [
     { name: 'storm', lang: 'WebStorm', learn: true },
     { name: 'eclipse', lang: 'Eclipse', learn: true },
     { name: 'jira', lang: 'Jira', learn: true },
+    { name: 'postman', lang: 'Postman', learn: true },
     { name: 'dbeaver', lang: 'DBeaver', learn: true },
     { name: 'swagger', lang: 'Swagger', learn: true },
     { name: 'docker', lang: 'Docker', learn: false },
