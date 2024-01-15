@@ -111,7 +111,7 @@ const projects = [
         role: 'FE 100%, BE 100% (4명)',
         content: '나만의 코스를 기록하여 공유하는 sns 프로젝트',
         url: 'https://github.com/121Mbp/woute-spring-backend',
-        skill: ['js', 'html', 'css', 'scss', 'react', 'springboot', 'java', 'oracle']
+        skill: ['js', 'html', 'css', 'scss', 'react', 'springboot', 'java', 'oracle', 's3', 'ec2', 'nginx', 'actions']
     },
 ]
 
@@ -132,6 +132,7 @@ const skillset = [
     { name: 's3', lang: 'AWS S3', learn: true },
     { name: 'ec2', lang: 'AWS EC2', learn: true },
     { name: 'actions', lang: 'Github Actions', learn: true },
+    { name: 'nginx', lang: 'NGINX', learn: true },
 ]
 
 const tools = [

@@ -312,6 +312,7 @@ $menus: (list, grid, code, home);
           li {
             display: inline-block;
             margin-right: 1rem;
+            margin-top: .8rem;
             &::before {
               $size: 1.8rem !important;
               width: $size;
