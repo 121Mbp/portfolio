@@ -22,10 +22,10 @@ const Introduce = () => {
                         ))
                     }
                 </ul>
-                <p>
+                {/* <p>
                     { introduce.appeal }
                     <Link to={ introduce.contact[1].url } target='_blank'>more +</Link>
-                </p>
+                </p> */}
             </div>
         </div>
     )
