@@ -1,5 +1,5 @@
 const introduce = {
-    name: '프론트의 세계에서 백엔드로의 전환: 코드의 두 얼굴을 만나다',
+    name: '프론트의 세계에서 백엔드와의 만남',
     appeal: '글로벌 게임회사에서 다양한 프로젝트 경험을 통하여 16개 국가의 언어를 대응한 경험이 있으며, 자발적으로 기획, 디자인, 프론트까지 직접 100% 참여하여 사이트를 성공적으로 오픈한 경험도 있습니다. 뿐만 아니라 GDPR 및 다양한 국가의 언어 대응에 있어, 직접 주도하여 각 부서와의 협업을 통해 편의성 및 효율성을 높이는데 기여하기도 하였습니다. 또한 네비게이션, 팝업 등의 다양한 기능을 위한 플러그인을 직접 개발하여 팀의 작업 효율을 향상시키는 경험도 쌓았습니다. 현재는 백엔드 개발자의 역량을 키우면서 프론트엔드에 대한 심도 있는 이해와 경험을 바탕으로, 두 분야를 융합하여 멀티플레이어 개발자로 성장하고자 합니다. 이러한 다양한 도전에 대한 열린 마음과 끊임없는 학습의지를 가지고, 두 개의 심장을 가진 박지성 선수처럼 더 나은 개발자로 성장해 나가겠습니다.',
     contact: [
         {
@@ -55,6 +55,11 @@ const timeline = [
         type: 'education',
         content: 'AWS클라우드 기반 자바&스프링&리액트 교육',
         date: '2023. 07. - 2024. 01.'
+    },  
+    {
+        type: 'company',
+        content: '솔트룩스 AI 플루닛',
+        date: '2024. 03. - 재직중'
     },    
 ]
 
@@ -113,6 +118,15 @@ const projects = [
         url: 'https://github.com/121Mbp/woute-spring-backend',
         skill: ['js', 'html', 'css', 'scss', 'react', 'springboot', 'java', 'oracle', 's3', 'ec2', 'nginx', 'actions']
     },
+    {
+        name: 'GEN AI',
+        period: '2024. 07.',
+        type: 'Personal',
+        role: 'FE 100%, BE 100%',
+        content: 'open ai와 스테이블 디퓨전의 API를 연동하여 이미지, 3D모델, 영상을 생성할 수 있도록 구현하였습니다.',
+        url: 'https://gen-sungsooai.netlify.app/',
+        skill: ['react', 'nextjs', 'css', 'scss', 'react', 'git', 'actions']
+    },
 ]
 
 const skillset = [
@@ -122,6 +136,7 @@ const skillset = [
     { name: 'jquery', lang: 'jQuery', learn: true },
     { name: 'scss', lang: 'SCSS', learn: true },
     { name: 'react', lang: 'React', learn: true },
+    { name: 'nextjs', lang: 'NextJS', learn: true },
     { name: 'node', lang: 'nodeJS', learn: true },
     { name: 'git', lang: 'Git', learn: true },
     { name: 'java', lang: 'JAVA', learn: true },

@@ -43,10 +43,10 @@ body {
     left: 0;
     right: 0;
     height: 1px;
-    background-color: rgba(255, 255, 255, .06);
+    background-color: rgba(255, 255, 255, 0.06);
   }
   .title {
-    margin: .6rem 0 1.2rem;
+    margin: 0.6rem 0 1.2rem;
     font-size: 1.6rem;
     color: $White-100;
     font-weight: 600;
@@ -64,27 +64,27 @@ $menus: (list, grid, code, home);
     display: flex;
     justify-content: space-between;
     background-color: $Woodsmoke-9;
-    padding: 0 .8rem;
+    padding: 0 0.8rem;
     border-radius: 4rem;
     color: $White-100;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, .6);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
     overflow: hidden;
-    transition: all .4s;
+    transition: all 0.4s;
     > li {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;  
-      margin: .4rem 0;
+      align-items: center;
+      margin: 0.4rem 0;
       a {
-        padding: .6rem 1.2rem;
+        padding: 0.6rem 1.2rem;
         font-size: 0;
         line-height: 0;
         &::before {
           $size: 2rem !important;
           width: $size;
           height: $size;
-        }  
+        }
       }
       @each $menu in $menus {
         &.#{$menu} a::before {
@@ -102,18 +102,18 @@ $menus: (list, grid, code, home);
   > span {
     display: inline-block;
     margin-bottom: 2rem;
-    padding: .8rem 1.2rem .6rem 1rem;
+    padding: 0.8rem 1.2rem 0.6rem 1rem;
     border-radius: 2rem;
     font-weight: 700;
     color: $CaribbeanGreen-43;
-    background-color: $BottleGreen-15;    
+    background-color: $BottleGreen-15;
     vertical-align: middle;
     &::before {
       content: '';
       display: inline-block;
-      width: .8rem;
-      height: .8rem;
-      margin-right: .5rem;
+      width: 0.8rem;
+      height: 0.8rem;
+      margin-right: 0.5rem;
       border-radius: 50%;
       background-color: $CaribbeanGreen-43;
       animation: blink-effect 1s step-end infinite;
@@ -146,14 +146,14 @@ $menus: (list, grid, code, home);
       margin-right: 1rem;
       a {
         display: block;
-        padding: .8rem 1.6rem .6rem 1.6rem;
+        padding: 0.8rem 1.6rem 0.6rem 1.6rem;
         color: $White-100;
         font-size: 12px;
         background-color: $Shark-19;
         border-radius: 2rem;
-        transition: all .4s;
+        transition: all 0.4s;
         &::before {
-          margin: -.3rem .8rem 0 0;
+          margin: -0.3rem 0.8rem 0 0;
         }
         &:hover {
           background-color: $CaribbeanGreen-43;
@@ -161,16 +161,28 @@ $menus: (list, grid, code, home);
         }
       }
       &.github a {
-        &::before {@include icon(github, $CaribbeanGreen-43);}
-        &:hover::before {@include icon(github, $Black-0);}
+        &::before {
+          @include icon(github, $CaribbeanGreen-43);
+        }
+        &:hover::before {
+          @include icon(github, $Black-0);
+        }
       }
       &.notion a {
-        &::before {@include icon(notion, $CaribbeanGreen-43);}
-        &:hover::before {@include icon(notion, $Black-0);}
+        &::before {
+          @include icon(notion, $CaribbeanGreen-43);
+        }
+        &:hover::before {
+          @include icon(notion, $Black-0);
+        }
       }
       &.mail a {
-        &::before {@include icon(mail, $CaribbeanGreen-43);}
-        &:hover::before {@include icon(mail, $Black-0);}
+        &::before {
+          @include icon(mail, $CaribbeanGreen-43);
+        }
+        &:hover::before {
+          @include icon(mail, $Black-0);
+        }
       }
     }
   }
@@ -181,13 +193,13 @@ $menus: (list, grid, code, home);
     a {
       margin: 0 1rem;
       font-size: 1.2rem;
-      color: #10CB8A;
+      color: #10cb8a;
     }
   }
 }
 
 .timeline {
-  $size: .8rem;
+  $size: 0.8rem;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -208,54 +220,54 @@ $menus: (list, grid, code, home);
       bottom: -1.25rem;
       margin-top: 1.4rem;
       width: 1px;
-      margin-left: calc($size / 2) - .2rem;
-      opacity: .2;
+      margin-left: calc($size / 2) - 0.2rem;
+      opacity: 0.2;
     }
     p {
       position: relative;
-      font-size: 1.3rem;  
+      font-size: 1.3rem;
       color: $QuickSilver-65;
       &::after {
         content: '';
         position: absolute;
         left: -3.7rem;
         top: 50%;
-      } 
+      }
     }
     &.graduation p::after {
-      @include icon(graduation, $QuickSilver-65)
+      @include icon(graduation, $QuickSilver-65);
     }
     &.graduation p.on::after {
-      @include icon(graduation, $CaribbeanGreen-43)
+      @include icon(graduation, $CaribbeanGreen-43);
     }
     &.company p::after {
-      @include icon(company, $QuickSilver-65)
+      @include icon(company, $QuickSilver-65);
     }
     &.company p.on::after {
-      @include icon(company, $CaribbeanGreen-43)
+      @include icon(company, $CaribbeanGreen-43);
     }
     &.code p::after {
-      @include icon(code, $QuickSilver-65)
+      @include icon(code, $QuickSilver-65);
     }
     &.code p.on::after {
-      @include icon(code, $CaribbeanGreen-43)
+      @include icon(code, $CaribbeanGreen-43);
     }
     &.education p::after {
-      @include icon(education, $QuickSilver-65)
+      @include icon(education, $QuickSilver-65);
     }
     &.education p.on::after {
-      @include icon(education, $CaribbeanGreen-43)
+      @include icon(education, $CaribbeanGreen-43);
     }
     span {
       font-size: 1.3rem;
-      opacity: .5;
+      opacity: 0.5;
     }
 
     &:last-child {
       &::before {
         display: none;
       }
-    }    
+    }
   }
 }
 
@@ -276,14 +288,14 @@ $menus: (list, grid, code, home);
         background-color: $Woodsmoke-9;
         border-radius: 1rem;
         overflow: hidden;
-        transition: all .4s;
+        transition: all 0.4s;
         > h4 {
           font-size: 1.6rem;
           color: $White-100;
           &::after {
             $size: 1rem;
             @include icon(shortcuts, $CaribbeanGreen-43, $squre, $squre);
-            margin: -.4rem 0 0 .6rem;
+            margin: -0.4rem 0 0 0.6rem;
           }
           span {
             display: block;
@@ -312,7 +324,7 @@ $menus: (list, grid, code, home);
           li {
             display: inline-block;
             margin-right: 1rem;
-            margin-top: .8rem;
+            margin-top: 0.8rem;
             &::before {
               $size: 1.8rem !important;
               width: $size;
@@ -325,7 +337,7 @@ $menus: (list, grid, code, home);
           > h4 {
             color: $Black-0;
             &::after {
-              @include icon(shortcuts, $Thunderbird-45,  $squre, $squre);
+              @include icon(shortcuts, $Thunderbird-45, $squre, $squre);
             }
           }
           > p {
@@ -344,7 +356,7 @@ $menus: (list, grid, code, home);
   > ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem; 
+    gap: 1rem;
     > li {
       display: flex;
       flex-direction: column;
@@ -357,13 +369,13 @@ $menus: (list, grid, code, home);
       aspect-ratio: 1/1;
       color: $White-100;
       overflow: hidden;
-      transition: all .4s;
+      transition: all 0.4s;
       @include size(sm) {
-        width: calc(25% - .8rem);
+        width: calc(25% - 0.8rem);
         padding: 1rem;
       }
       &.disabled {
-        opacity: .26;
+        opacity: 0.26;
         color: $CaribbeanGreen-43;
       }
       &::before {
@@ -381,7 +393,7 @@ $menus: (list, grid, code, home);
         font-size: 1.2rem;
         font-weight: 600;
         @include size(sm) {
-          font-size: .96rem;
+          font-size: 0.96rem;
         }
       }
       &:not(.disabled):hover {
@@ -401,16 +413,34 @@ $menus: (list, grid, code, home);
 }
 
 @keyframes wave-animation {
-  0% { transform: rotate(0deg) }
-  10% { transform: rotate(14deg) }
-  20% { transform: rotate(-8deg) }
-  30% { transform: rotate(14deg) }
-  40% { transform: rotate(-4deg) }
-  50% { transform: rotate(10deg) }
-  60% { transform: rotate(0deg) }
-  100% { transform: rotate(0deg) }
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 @keyframes blink-effect {
-  50% { opacity: 0 }
+  50% {
+    opacity: 0;
+  }
 }
