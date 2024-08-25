@@ -65,15 +65,6 @@ const timeline = [
 
 const projects = [
     {
-        name: 'Front-End Portfolio',
-        period: '2014. 12. - 2023. 05.',
-        type: 'Practice',
-        role: 'FE 100%',
-        content: '2014 - 2023년 웹퍼블리셔 UI개발자 포트폴리오',
-        url: 'https://121mbp.github.io/room/',
-        skill: ['js', 'html', 'css', 'jquery', 'scss']
-    },
-    {
         name: 'Bank CLI Application',
         period: '2023. 08.',
         type: 'Team',
@@ -124,9 +115,18 @@ const projects = [
         type: 'Personal',
         role: 'FE 100%, BE 100%',
         content: 'Open AI와 스테이블 디퓨전의 API를 연동하여 이미지, 3D모델, 영상을 생성할 수 있도록 구현하였습니다.',
-        url: 'https://gen-sungsooai.netlify.app/',
+        url: 'https://github.com/121Mbp/gen-ai',
         skill: ['react', 'nextjs', 'css', 'scss', 'react', 'git', 'actions']
     },
+    {
+        name: 'Front-End Portfolio',
+        period: '2014. 12. - 2023. 05.',
+        type: 'Practice',
+        role: 'FE 100%',
+        content: '2014 - 2023년 웹퍼블리셔 UI개발자 포트폴리오',
+        url: 'https://121mbp.github.io/room',
+        skill: ['js', 'html', 'css', 'jquery', 'scss']
+    }
 ]
 
 const skillset = [
