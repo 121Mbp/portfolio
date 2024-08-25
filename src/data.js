@@ -48,7 +48,7 @@ const timeline = [
     },
     {
         type: 'company',
-        content: '컴투스 플랫폼 웹개발팀 퍼블리싱 파트 책임',
+        content: '컴투스 플랫폼 웹개발팀 퍼블리싱 파트 파트장',
         date: '2018. 06. - 2023. 05.'
     },
     {
@@ -58,7 +58,7 @@ const timeline = [
     },  
     {
         type: 'company',
-        content: '솔트룩스 AI 플루닛',
+        content: '솔트룩스 플루닛 서비스 개밭팀 책임',
         date: '2024. 03. - 재직중'
     },    
 ]
@@ -123,7 +123,7 @@ const projects = [
         period: '2024. 07.',
         type: 'Personal',
         role: 'FE 100%, BE 100%',
-        content: 'open ai와 스테이블 디퓨전의 API를 연동하여 이미지, 3D모델, 영상을 생성할 수 있도록 구현하였습니다.',
+        content: 'Open AI와 스테이블 디퓨전의 API를 연동하여 이미지, 3D모델, 영상을 생성할 수 있도록 구현하였습니다.',
         url: 'https://gen-sungsooai.netlify.app/',
         skill: ['react', 'nextjs', 'css', 'scss', 'react', 'git', 'actions']
     },
