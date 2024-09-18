@@ -123,7 +123,7 @@ const projects = [
         period: '2014. 12. - 2023. 05.',
         type: 'Practice',
         role: 'FE 100%',
-        content: '2014 - 2023년 웹퍼블리셔 UI개발자 포트폴리오',
+        content: '2014 - 2023년 FE 포트폴리오',
         url: 'https://121mbp.github.io/room',
         skill: ['js', 'html', 'css', 'jquery', 'scss']
     }
