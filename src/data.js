@@ -110,6 +110,15 @@ const projects = [
         skill: ['js', 'html', 'css', 'scss', 'react', 'springboot', 'java', 'oracle', 's3', 'ec2', 'nginx', 'actions']
     },
     {
+        name: 'Bitcoin Info',
+        period: '2024. 10.',
+        type: 'Personal',
+        role: 'FE 100%',
+        content: '코인들의 정보와 시세를 그래프 차트로 구현하였습니다.',
+        url: 'https://github.com/121Mbp/gen-ai',
+        skill: ['react', 'nextjs', 'css', 'scss', 'react', 'git', 'actions']
+    },
+    {
         name: 'GEN AI',
         period: '2024. 07.',
         type: 'Personal',
