@@ -142,7 +142,7 @@ const projects = [
     type: "Personal",
     role: "FE 100%",
     content: "코인들의 정보와 시세를 그래프 차트로 구현하였습니다.",
-    url: "https://bitcoins-sage.vercel.app/",
+    url: "https://github.com/121Mbp/bitcoins",
     skill: ["react", "css", "scss", "react", "git", "actions"],
   },
   {
