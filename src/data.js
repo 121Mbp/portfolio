@@ -142,8 +142,8 @@ const projects = [
     type: 'Personal',
     role: 'FE 100%',
     content: '코인들의 정보와 시세를 그래프 차트로 구현하였습니다.',
-    url: 'https://github.com/121Mbp/bitcoins',
-    skill: ['react', 'css', 'scss', 'react', 'git', 'actions'],
+    url: 'https://minigame-party.com/ko',
+    skill: ['react', 'css', 'scss', 'git', 'actions'],
   },
   {
     name: 'GEN AI',
@@ -170,7 +170,7 @@ const projects = [
     type: 'Team',
     role: 'FE 100%',
     content:
-      '교수님의 강의계획서를 바탕으로 LLM과 RAG를 통해 검색하여, 강의 목차, 스크립트를 생성해주며, 이를 기반으로 메타휴먼이 등장하여, 발화해주는 영상을 생성하여 학생들에게 제공해 주는 교육 컨텐츠입니다.',
+      '교수님의 강의계획서를 바탕으로 LLM과 RAG를 통해 검색하여, 강의 목차, 스크립트를 생성해주며, 이를 기반으로 메타휴먼이 등장하여, 발화해주는 영상을 생성하여 학생들에게 제공해 주는 교육 플랫폼입니다.',
     url: 'https://github.com/121Mbp/ai-prof',
     skill: ['react', 'css', 'scss', 'git'],
   },
